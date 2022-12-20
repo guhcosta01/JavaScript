@@ -19,6 +19,16 @@ footer{
     text-align: center;
     font-style: italic;
 }
-img{
-    width: 400px;
+#foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+header h1 {
+    padding: 20px;
 }
