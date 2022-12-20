@@ -1,0 +1,38 @@
+pra voce abri uma segunda condição Voce sempre usara o <else fi > e nao limite de uso 
+NO Final sempre finalize com <else> 
+
+Para Voce Deixar um Var com Uma Data ou hora em tempo real
+voce devera deixa as vars deas seguintes forma
+
+var hora = new Date() o D de Date sempre tem q ser maisculo
+var agora = hora.getHours()
+
+CONDIÇOES MULTIPLA
+
+
+base Inicial
+
+switch(expressão){
+    case: valor 1 
+
+        break
+     
+    case :valor 2
+
+        break
+    
+    case : valor 3
+
+        break
+    
+    default{
+
+        break
+    }
+}
+
+
+EM TODO BLOCO QUE HOUVER VOCE DEVE COLOCAR O <BREAK> NO FINAL, É OBRIGATORIO! 
+O BREAK TESTARA A EXPRESSÃO  
+DIGAMOS QUE SERA O BLOCO 2 QUE SERA CHAMADO  DEPOIS QUE ELE FOR CHAMADO VAI PASSAR PRO BREAK,  E O  BREAK TESTARA O BLOCO
+SE AS LINHAS DE COMANDOS TIVER CORRETO E EXISTENTE  E ENTAO A BLOCO 2 SERA ATIVADO

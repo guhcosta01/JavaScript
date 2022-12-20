@@ -1,0 +1,49 @@
+Ordem de Condiçoes
+
+
+                    ____
+                  /      \                  
+                  \      /
+         _________         _________
+         |                          |
+         |                          |
+        TRUE                       false
+         |          ________        |
+         |________>|        |< _____|            
+                   |________|
+                        |
+                        |
+sigla <if> e a Sigla <else> Serao as Responsavel para essas Condiçoes fucionarem
+
+Significado de <if> é - Si
+Significado de <else> é - Senao
+
+Exemplo:
+
+if(condição = x){
+    true
+} 
+else (condição = y)(
+    false
+)
+Ou Seja si<if> Acontecer <x> Sera chamada a Função <True> Caso ao contrario <else> sera <y> e chamara a função <false>
+
+
+TIPOS DE condição
+Condição Simples
+
+if(condição){
+    true
+}
+Aqui é uma Condição <Simples> Por que Nao Tem a Condição Si Nao(else)
+Se For True vai Ativar a Função se Nao For True nao Vai Acontecer nada Por que nao tem (else)
+
+e a tem a Condição Normal
+
+if (condição){
+    TRUE
+}else{
+    false
+}
+Aqui se For True vai Chamar a condição <True> Agora seno for <True> vai ser ativada a <else> <False>
+

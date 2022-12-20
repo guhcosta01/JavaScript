@@ -1,0 +1,16 @@
+Elementos Dom - JavaScript 
+
+Sempre que Voce For Chamar o Navegador Sera representado
+Pelo <Windown>
+e Para Chamar o documento Html Voce Usar
+o <document>
+Para Escrever Algo Dentro do Proprio JavaScript
+VOce Usa Seguinte linha de comando
+
+<window.document.write ("Escrever Aqui")
+
+Se VOce quiser Reptir um P ou Um H1 etc, Voce usa a Essa ordem
+
+<Window.document.write ("p1.innerHTML  ou p1.innerText")
+InnerHtml - Ele vai Reptir exatamente da Forma que estiver no html se Tiver <Strong> ele usara a Strong tambem
+innerText - Aqui ele APenas repitara o texto sem nenhum acressimo ou seja se tiver Letra maiscula ou uma strong ele nao Usara

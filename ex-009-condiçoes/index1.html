@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro ou Estrangeiro</title>
+</head>
+<body>
+    <h1>
+        Brasileiro ou Estrangeiro
+    </h1>
+    Qual Pais Voce Mora : 
+    <input type="text" name="pais" id="pais" required>
+    <input type="button" value="Enviar" onclick="clicar()">
+    <div id="res"></div>
+
+    <script>
+        function clicar(){
+            var txpais = window.document.getElementById('pais')
+            var res = window.document.getElementById('res')
+            var ipais = String(txpais.value)
+            res.innerHTML = ` Você Mora no <strong>${ipais}</strong>`
+            if(ipais == "Brasil")
+              
+            {
+
+                    res.innerHTML += `<p>Você é Brasileiro!</p>`               
+            }else if(ipais == "brasil"){
+                res.innerHTML += `<p>Você é Brasileiro!</p>`
+            }
+            else {
+
+                res.innerHTML += `<p>Você é Estrangeiro!</p> `
+            } 
+            
+
+        }
+    </script>
+</body>
+</html>

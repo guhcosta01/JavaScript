@@ -1,0 +1,79 @@
+5 == 5 : true
+5 == "5" : true (Aqui JavaScript Falara que é True Por que Aqui nao esta Analisando o 'Tipo' Mesmo que o "5" Esteja no formato String e Sim a Grandeza se é maior ou menor )
+5 === "5" : False  (Aqui o JavaScript Analizara o "Tipo" e  a Grandeza de maior ou menor ) 
+
+
+Operadores Logicos
+
+
+! = Negação 
+&& = conjunção 
+|| = Disjunção 
+
+
+! - Esse Simbolo So Tem um Operador Se Uma Coisa Nao "True" Entao É "False" e Uma Coisa que nao é "False" Entao é "True"
+
+&& - Esse Simbolo binario ou seja ele tem 2 Valores logicos de cada lado
+exemplo:
+true  && true = true
+True && false = false
+false && true = false
+false && false = false
+
+ou Seja Tem quer ser "True && true = truse" Caso nao Seja Tudo sera determinado como "False"
+
+
+|| - Aqui Tambem temos 2 Valores Logicos Porem Funciona de uma forma diferente Basta ter um "True" Para ser Verdadeiro
+
+exemplo:
+
+true || true = True
+true || false = true
+false || false = false
+
+
+Ordem de Precedencia
+
+Primeiro Sera OS Operadores aritmeticos
+() , ** , /.
+Segundo sera os Operadores Relacionais 
+> , <,>=
+Terceiro sera Os Operadores Logicos
+!, &&, ||
+
+
+Ordem de Qual sera resolvidos Primeiro em cada Operação
+
+nos aritmeticos
+os () Sera Resolvido Primeiro
+Depois os * e o depois os / 
+
+NOS Relacionais
+Nao Tem Ordem 
+Porem se Tiver Dois Operadores Relacionais na Mesma Conta Sempre Sera Resolvido da Esquerda para Direita
+
+Nos Logicos
+!
+&&
+||
+ 
+
+ Ultimo Operador é o tercenario 
+ Que Usa  o o simbolo (? e o :) 
+
+esse Operador se Chama ternario Por que sempre ele tera 3 partes 
+exemplo:
+
+var res = Teste ? true : False 
+
+Aqui ele Esta Fazendo um teste de Falso ou true se o <Teste>
+For True o Resultado sera True e For False o Resultado sera False
+
+Outro exemplo
+
+Var Media = 10
+var Res = x Media >= 7.1 ? Aprovado : Reprovado
+res : Aprovado 
+
+Aqui EStou Perguntando se Media é Maior que 7.0 Se Sim o Resultado sera Aprovado Se nao for sera reprovado.
+

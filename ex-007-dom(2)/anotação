@@ -1,0 +1,16 @@
+Eventos Dom 
+Algumas Açoes para coloca dentro da div no html para o javaScript indentificar
+Sempre coloque o <on> e depois coloque o evento desejado, Isso Dentro do HTML <onclick>
+<onmouseenter>AÇÃO DE PASSA O MOUSE - Quando eu Passar o Mouse em cima de um div
+<onmousemove> AÇÃO DE MOVER O MOUSE DENTRO DA DIV- Quando Eu Estiver Movendo o MOuse dentro de uma div    
+<onmousedown> AÇÃO DE SEGURA O CLIQUE-Quando eu Clicar com o MOuse e Segurar Sera disparada a Ação desejada
+<onmouseup>AÇÃO DE SOLTAR O CLIQUE-Quando eu Estiver Segurando o botao do Mouse e Solta Sera disparada Ação
+<onclick>ACÃO DE CLIQUE-Quando eu Dar um Clique com o MOuse Dentro da Div A Ação sera disparada
+<onmouseout>Ação de Saida do mouse- Quando eu Tira o Curso do mouse de dentro da div a ação se disparada   
+    
+    
+Voce Usando o <addEventListener> Voce consegue Chama as Funçoes Dentro do proprio JavaScript assim Deixando o html Mais Limpo
+Exemplo
+
+a.addEventListener('click',clicar ) Aqui ja estou Falando Qual evento deve Acontecer e Ja Estou Determinando  o Name para chamar na function
+Aqui Voce Nao Precisa Coloca o <ON> Antes 
